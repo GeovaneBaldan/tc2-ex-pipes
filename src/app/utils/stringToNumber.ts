@@ -1,0 +1,30 @@
+const conversionList: Map<string,string> = new Map();
+
+conversionList.set("A", "2");
+conversionList.set("B", "2");
+conversionList.set("C", "2");
+conversionList.set("D", "3");
+conversionList.set("E", "3");
+conversionList.set("F", "3");
+conversionList.set("G", "4");
+conversionList.set("H", "4");
+conversionList.set("I", "4");
+conversionList.set("J", "5");
+conversionList.set("K", "5");
+conversionList.set("L", "5");
+conversionList.set("M", "6");
+conversionList.set("N", "6");
+conversionList.set("O", "6");
+conversionList.set("P", "7");
+conversionList.set("Q", "7");
+conversionList.set("R", "7");
+conversionList.set("S", "7");
+conversionList.set("T", "8");
+conversionList.set("U", "8");
+conversionList.set("V", "8");
+conversionList.set("W", "9");
+conversionList.set("X", "9");
+conversionList.set("Y", "9");
+conversionList.set("Z", "9");
+
+export default conversionList;
