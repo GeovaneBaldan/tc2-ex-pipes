@@ -11,12 +11,10 @@ export class CarPlateViewPipe implements PipeTransform {
 
     let valid: boolean = plateTemplate.test(value);
   
-    if (!valid) {
-      return "Invalid";
-    } else {
-      let plate = value.substr(0,3).toUpperCase() + "-" + value.substr(3);
-      return plate;
-    }
+    if (!valid) return "Invalid";
+    
+    let plate = value.substr(0,3).toUpperCase() + "-" + value.substr(3);
+    return plate;
   }
 
 }

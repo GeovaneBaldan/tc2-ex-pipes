@@ -4,13 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CarPlateViewPipe } from './pipes/carPlate/car-plate-view.pipe';
-import { PhoneBrViewPipe } from './pipes/phoneBR/phone-br-view.pipe';
+import { PhoneViewPipe } from './pipes/phone/phone-view.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarPlateViewPipe,
-    PhoneBrViewPipe
+    PhoneViewPipe,
   ],
   imports: [
     BrowserModule,

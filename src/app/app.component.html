@@ -7,10 +7,32 @@
 <div class="columns">
   <div class="column is-1"></div>
   <div class="column is-3">
-    <input class="input is-small" [(ngModel)]="carPlate" type="text" placeholder="Insert an plate number">
+    <input class="input is-small" [(ngModel)]="carPlate" type="text" placeholder="Insert a plate number">
   </div>
   <div class="column is-3">
     <p>{{ carPlate | carPlateView }}</p>
+  </div>
+  <div class="column"></div>
+</div>
+
+<div class="columns">
+  <div class="column is-1"></div>
+  <div class="column is-3">
+    <input class="input is-small" [(ngModel)]="phoneBR" type="text" placeholder="Insert a phone number (BR)">
+  </div>
+  <div class="column is-3">
+    <p>{{ phoneBR | phoneView: 'BR' }}</p>
+  </div>
+  <div class="column"></div>
+</div>
+
+<div class="columns">
+  <div class="column is-1"></div>
+  <div class="column is-3">
+    <input class="input is-small" [(ngModel)]="phoneUS" type="text" placeholder="Insert a phone number (US)">
+  </div>
+  <div class="column is-3">
+    <p>{{ phoneUS | phoneView: 'US' }}</p>
   </div>
   <div class="column"></div>
 </div>

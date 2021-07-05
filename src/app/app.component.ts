@@ -10,4 +10,8 @@ export class AppComponent {
 
   carPlate: string = "";
 
+  phoneBR: string = "";
+  phoneUS: string = "";
+
+  
 }
