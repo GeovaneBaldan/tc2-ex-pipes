@@ -13,5 +13,5 @@ export class AppComponent {
   phoneBR: string = "";
   phoneUS: string = "";
 
-  
+  nameAbnt: string = "";
 }

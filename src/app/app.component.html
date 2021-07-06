@@ -36,3 +36,14 @@
   </div>
   <div class="column"></div>
 </div>
+
+<div class="columns">
+  <div class="column is-1"></div>
+  <div class="column is-3">
+    <input class="input is-small" [(ngModel)]="nameAbnt" type="text" placeholder="Insert a name">
+  </div>
+  <div class="column is-3">
+    <p>{{ nameAbnt | nameAbntView }}</p>
+  </div>
+  <div class="column"></div>
+</div>
