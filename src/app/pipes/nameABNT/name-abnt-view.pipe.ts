@@ -7,7 +7,7 @@ export class NameAbntViewPipe implements PipeTransform {
 
   transform(value: string): string {
     
-    const nameTemplate = /\w+\s+\w/;
+    const nameTemplate = /[a-zA-Zà-úÀ-Ú]+\s+\w/;
 
     let valid = nameTemplate.test(value);
 

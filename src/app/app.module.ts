@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CarPlateViewPipe } from './pipes/carPlate/car-plate-view.pipe';
 import { PhoneViewPipe } from './pipes/phone/phone-view.pipe';
 import { NameAbntViewPipe } from './pipes/nameABNT/name-abnt-view.pipe';
+import { NameListAbntViewPipe } from './pipes/nameListABNT/name-list-abnt-view.pipe';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NameAbntViewPipe } from './pipes/nameABNT/name-abnt-view.pipe';
     CarPlateViewPipe,
     PhoneViewPipe,
     NameAbntViewPipe,
+    NameListAbntViewPipe,
   ],
   imports: [
     BrowserModule,

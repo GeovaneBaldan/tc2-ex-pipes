@@ -14,4 +14,5 @@ export class AppComponent {
   phoneUS: string = "";
 
   nameAbnt: string = "";
+  nameListAbnt: string = "";
 }

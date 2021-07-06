@@ -7,7 +7,7 @@ export class CarPlateViewPipe implements PipeTransform {
 
   transform(value: string): string {
     
-    const plateTemplate = /^[a-zA-Z]{3}[0-9]{4}$/; 
+    const plateTemplate = /^[a-zA-Z]{3}[0-9]{4}$/;
 
     let valid: boolean = plateTemplate.test(value);
   

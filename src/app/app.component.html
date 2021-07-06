@@ -47,3 +47,14 @@
   </div>
   <div class="column"></div>
 </div>
+
+<div class="columns">
+  <div class="column is-1"></div>
+  <div class="column is-3">
+    <input class="input is-small" [(ngModel)]="nameListAbnt" type="text" placeholder="Insert a name list">
+  </div>
+  <div class="column is-3">
+    <p>{{ nameListAbnt | nameListAbntView }}</p>
+  </div>
+  <div class="column"></div>
+</div>
